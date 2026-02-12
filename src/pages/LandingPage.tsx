@@ -49,7 +49,7 @@ const LandingPage = () => {
       <nav className="flex items-center justify-between px-8 h-16 border-b border-border/50 bg-card/30 backdrop-blur-sm sticky top-0 z-20">
         <div className="flex items-center gap-2">
           <Shield className="w-7 h-7 text-primary" />
-          <span className="font-display font-bold text-lg text-foreground">TrafficAI</span>
+          <span className="font-display font-bold text-lg text-foreground">Traffic Observer</span>
         </div>
         <Link to="/dashboard">
           <Button variant="default" size="sm">
@@ -73,7 +73,7 @@ const LandingPage = () => {
             AI-Powered Traffic Monitoring
           </div>
           <h1 className="font-display text-5xl md:text-6xl font-bold text-foreground leading-tight mb-6">
-            Smart Traffic Violation
+             Traffic Violation
             <br />
             <span className="text-primary">Detection System</span>
           </h1>
